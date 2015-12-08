@@ -71,3 +71,10 @@ request(`http://api.openweathermap.org/data/2.5/weather?zip=${zipcode},us&units=
         })
 		
 }
+
+export function testingW(): string{ 
+	return "Error!"; 
+ 	} 
+
+
+
