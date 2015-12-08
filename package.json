@@ -1,15 +1,29 @@
 {
-  "name": "helloworld",
-  "displayName": "Helloworld",
-  "description": "This is my first TS extension for VSCode",
-  "version": "0.0.1",
+  "name": "WeatherExtension",
+  "displayName": "Weather Extension for VS code",
+  "description": "This extension adds a small icon, temperature, and cloud cover on the bottom left of your status bar after you input your zip code.",
+  "version": "0.1.0",
   "publisher": "AndrewMoll",
   "engines": {
     "vscode": "^0.10.1"
   },
+  "license": "MIT",
+  "homepage": "Githubpage https to readme",
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "Weather"
+  ],
+  "icon": "http to jpeg for icon",
+  "galleryBanner":{
+    "color":"",
+    "theme":"light"
+  },
+  "bugs": {
+    "url": "https://github.com/issues",
+    "email": ""
+  },
   "activationEvents": [
     "onCommand:extension.Weather"
   ],

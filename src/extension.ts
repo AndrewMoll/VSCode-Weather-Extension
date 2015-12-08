@@ -34,7 +34,7 @@ request(`http://api.openweathermap.org/data/2.5/weather?zip=${zipcode},us&units=
         if (!error && response.statusCode == 200) {
             
             var  parsed = JSON.parse(body);
-            if (parsed.cod != null)
+            if (parsed.cod != '200')
             {
                 vscode.window.showErrorMessage(parsed.message);
                 
@@ -47,7 +47,7 @@ request(`http://api.openweathermap.org/data/2.5/weather?zip=${zipcode},us&units=
    
             if (!this._statusBarItem) { 
                 this._statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left); 
-            if(temp < 60){
+            if(temp < 55){
                  this._statusBarItem.text = `$(thumbsdown) ${cover} and ${temp}`;
             }
             else if(temp>=85){
