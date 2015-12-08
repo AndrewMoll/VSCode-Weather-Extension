@@ -9,7 +9,17 @@ of the status bar! There are even cool icons to go with it.
 Using it is simple:
 
 cntl + shift + p and choose the get-weather package
+
+![alt tag](https://raw.githubusercontent.com/AndrewMoll/VSCode-Weather-Extension/master/chooseExtension.PNG)
+
 Input your zipcode
 
+![alt tag](https://raw.githubusercontent.com/AndrewMoll/VSCode-Weather-Extension/master/InputZip.PNG)
 
-Check the weather!
+Check the weather
+
+
+![alt tag](https://raw.githubusercontent.com/AndrewMoll/VSCode-Weather-Extension/master/Icon.PNG)
+
+
+Typical San Francisco....
