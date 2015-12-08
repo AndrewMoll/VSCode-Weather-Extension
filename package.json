@@ -8,20 +8,23 @@
     "vscode": "^0.10.1"
   },
   "license": "MIT",
-  "homepage": "Githubpage https to readme",
+  "homepage": "https://github.com/AndrewMoll/VSCode-Weather-Extension/README.md",
   "categories": [
     "Other"
   ],
   "keywords": [
-    "Weather"
+    "Weather",
+    "Rain",
+    "Fun",
+    "Sunny"
   ],
-  "icon": "http to jpeg for icon",
+  "icon": "http://watermarkblogs.org/wmparents/files/2013/05/sun-fun.jpg",
   "galleryBanner":{
     "color":"",
     "theme":"light"
   },
   "bugs": {
-    "url": "https://github.com/issues",
+    "url": "https://github.com/AndrewMoll/VSCode-Weather-Extension/issues",
     "email": ""
   },
   "activationEvents": [
