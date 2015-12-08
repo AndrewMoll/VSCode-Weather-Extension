@@ -3,7 +3,7 @@
   "displayName": "Weather Extension for VS code",
   "description": "This extension adds a small icon, temperature, and cloud cover on the bottom left of your status bar after you input your zip code.",
   "version": "0.1.0",
-  "publisher": "andrewmoll",
+  "publisher": "AndrewMoll",
   "engines": {
     "vscode": "^0.10.1"
   },
